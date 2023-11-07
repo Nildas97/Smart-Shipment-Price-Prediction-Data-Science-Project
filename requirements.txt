@@ -1,0 +1,8 @@
+pandas
+flask
+numpy
+pymongo
+PyYaml
+python-dotenv
+scikit-learn
+-e . 
