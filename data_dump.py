@@ -6,6 +6,7 @@ import pymongo
 import json
 import os
 from src.logger import logging
+from schema import write_schema_yaml
 
 
 # mongodb client
@@ -32,7 +33,7 @@ if __name__ == "__main__":
     FILE_PATH = os.path.join(ROOT_DIR, DATA_FILE_PATH)
 
     # getting the schema data
-    # write_schema_yaml(csv_file=DATA_FILE_PATH)
+    write_schema_yaml(csv_file=DATA_FILE_PATH)
 
     # read the dataset
     df = pd.read_csv(DATA_FILE_PATH)  # referring to the old way

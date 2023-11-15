@@ -1,0 +1,23 @@
+DATA SCIENCE PIPELINE FILE STRUCTURE
+-------------------------------------
+
+1. DATA INGESTION PIPELINE
+ a. config.yaml - completed
+ b. constant file - completed
+ c. config_entity - completed
+ d. artifact_entity - completed
+ e. helper function - completed
+ f. data ingestion file - completed
+ g. training pipeline - completed
+ h. testing file - completed
+ 
+2. DATA TRANSFORMATION PIPELINE
+ a. config.yaml
+ b. schema.yaml
+ c. constant file
+ d. config_entity
+ e. artifact_entity
+ f. helper function
+ g. data transformation file
+ h. training pipeline
+ i. testing file

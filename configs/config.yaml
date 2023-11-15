@@ -1,0 +1,19 @@
+training_pipeline_config:
+ pipeline_name: Artifact
+ artifact_dir: artifact
+
+# artifact_dir->data_ingestion_dir->raw_data & ingested_data
+
+data_ingestion_config:
+ database_name: SMART_SHIPMENT
+ collection_name: SHIPMENT_DATA
+ data_ingestion: data_ingestion
+ raw_data_dir: raw_data
+ ingested_dir: ingested_data
+ ingested_train_data: Train
+ ingested_test_data: Test
+
+data_transformation_config:
+ data_transformation_dir: data_transformation
+ transformed_dir: transform_data
+ transformed_
